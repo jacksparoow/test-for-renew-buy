@@ -1,0 +1,41 @@
+.textBox{
+    background-color: rgb(140, 200, 140);
+    padding: 0.5rem;
+    color:green;
+ }
+ .taskButton{
+     background-color: rgb(169, 211, 225);
+     color: blue;
+     cursor: pointer;
+     padding: 0.5rem;
+     
+   text-align: center;
+ }
+ .taskButton .btnAdd{
+   text-decoration: none;
+ }
+ .taskList{
+  padding: 20px;   
+  background-color: lightgray;
+ }
+ .taskList .taskData{
+     border-radius: 0.5rem;
+     box-shadow: 0px 2px 10px 0px #d8d8d873;
+     padding: 0.3rem;
+     background: #fff;
+ }
+ .imgRow{
+     display: flex;
+     align-items: center;
+     padding: 0.3rem;
+ }
+ .imgRow .imgBox{
+    background-color: lightcoral;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    padding: 3px 0;
+    text-align: center;
+    border-radius: 100%;
+ }
+ 

@@ -1,0 +1,95 @@
+<section class="container mt-4">
+    <h3>Projects</h3>
+    <div class="row">
+        <div class="col-4">
+            <div class="textBox">
+                Todo
+            </div>
+            <div class="taskButton" data-bs-toggle="modal" data-bs-target="#taskSelect">
+                <a href="#" class="btnAdd"><i class="fal fa-plus"></i></a>
+            </div>
+            <div class="taskList">
+                <div class="taskData">
+                    <h4>Designe</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen book. </p>
+                    <div class="imgRow">
+                        <div class="imgBox">
+                            <i class="fal fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="textBox">
+                In Progress
+            </div>
+            <div class="taskButton" data-bs-toggle="modal" data-bs-target="#taskSelect">
+                <a href="#" class="btnAdd"><i class="fal fa-plus"></i></a>
+            </div>
+            <div class="taskList">
+                <div class="taskData">
+                    <h4>Designe</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen book. </p>
+                    <div class="imgRow">
+                        <div class="imgBox">
+                            <i class="fal fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="textBox">
+                Completed
+            </div>
+            <div class="taskButton" data-bs-toggle="modal" data-bs-target="#taskSelect">
+                <a href="#" class="btnAdd"><i class="fal fa-plus"></i></a>
+            </div>
+            <div class="taskList">
+                <div class="taskData">
+                    <h4>Designe</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen book. </p>
+                    <div class="imgRow">
+                        <div class="imgBox">
+                            <i class="fal fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- mdoal-window -->
+<div class="modal fade" id="taskSelect" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Tye Select</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div>
+                    <select class="form-control">
+                       <option>Todo</option>
+                       <option>In Progress</option>
+                       <option>Completed</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" (click)="goTonext()" data-bs-dismiss="modal" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>

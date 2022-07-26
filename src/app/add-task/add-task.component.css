@@ -1,0 +1,10 @@
+.formBox{
+    width: 60%;
+  }
+  
+  .formBox .form-group{
+      margin-bottom: 1rem;
+  }
+  .formBox .form-group .selectData{
+    cursor: pointer;
+  }
